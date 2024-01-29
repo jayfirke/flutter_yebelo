@@ -35,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
           details: json['p_details'] ?? '',
           category: json['p_category'] ?? '',
         )).toList();
+        setState(() {});
       } else {
         print('Error: JSON data is empty.');
       }
